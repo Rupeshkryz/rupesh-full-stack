@@ -1,0 +1,269 @@
+<--------------------------------------------------html-------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+        <div class="flip-card" onclick="flip(event)">
+            <div class="flip-box-inner">
+            <div class="front">
+
+            </div>
+            <div class="back">
+                <p>hi this is rupesh</p>
+
+            </div>
+            
+        </div>
+        </div>
+
+    
+
+    </div>
+    <script>
+        function flip(event){
+        var element = event.currentTarget;
+        if (element.className === "flip-card") {
+        if(element.style.transform == "rotateY(180deg)") {
+        element.style.transform = "rotateY(0deg)";
+        }
+        else {
+        element.style.transform = "rotateY(180deg)";
+        }
+    }
+    };
+            
+    
+    
+    </script>
+</body>
+</html>
+
+
+
+
+
+<----------------------------------------------------------css------------------------------------------------------------->
+.flip-card {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    perspective: 1000px;
+    float: left;
+
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+
+
+  .flip-box-inner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transition: transform 1.0s;
+    transform-style: preserve-3d;
+  }
+
+  /* .flip-card:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  } */
+  
+  
+  .front, .back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    background-color: coral;
+    color: black;
+  }
+  
+  .back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
